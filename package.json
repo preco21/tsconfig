@@ -1,0 +1,28 @@
+{
+  "name": "@preco21/tsconfig",
+  "version": "0.0.0",
+  "description": "Shared TypeScript config for my projects",
+  "author": "Plusb Preco <plusb21@gmail.com>",
+  "main": "tsconfig.json",
+  "engines": {
+    "node": ">=10"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/preco21/tsconfig#readme",
+  "repository": "preco21/tsconfig",
+  "bugs": {
+    "url": "https://github.com/preco21/tsconfig/issues"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration",
+    "shared",
+    "sharable"
+  ]
+}
