@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    "jsx": "react",
+    "sourceMap": true,
+    "declaration": true,
+    "newLine": "lf",
+    "stripInternal": true,
+
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "noEmitOnError": true,
+    "noErrorTruncation": true,
+
+    "skipLibCheck": true
+  }
+}
