@@ -26,17 +26,6 @@ $ npm install --save-dev @preco21/tsconfig
 
 ## Tips
 
-### For `babel` setup (e.g. for react projects)
-
-```json
-{
-  ...
-  "compilerOptions": {
-    "esModuleInterop": true,
-  }
-}
-```
-
 ### For `non-library` setup
 
 ```json
