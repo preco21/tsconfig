@@ -7,7 +7,6 @@
     "resolveJsonModule": true,
 
     "jsx": "react",
-    "sourceMap": true,
     "declaration": true,
     "newLine": "lf",
     "stripInternal": true,
