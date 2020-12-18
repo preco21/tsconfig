@@ -38,7 +38,3 @@ $ npm install --save-dev @preco21/tsconfig
   }
 }
 ```
-
-## License
-
-[MIT](https://preco.mit-license.org/)
