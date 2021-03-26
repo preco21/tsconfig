@@ -35,6 +35,7 @@ $ npm install --save-dev @preco21/tsconfig
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
+    "incremental": true,
   }
 }
 ```
