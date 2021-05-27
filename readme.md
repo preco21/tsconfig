@@ -24,18 +24,37 @@ $ npm install --save-dev @preco21/tsconfig
 }
 ```
 
-## Tips
+## Snippets
 
-### For `non-library` setup
+### For `library` setup
 
 ```json
 {
-  ...
+  "extends": "@preco21/tsconfig",
   "compilerOptions": {
+    "outDir": "dist",
     "esModuleInterop": true,
+    "declaration": true,
     "sourceMap": true,
-    "declaration": false,
-    "incremental": true,
-  }
+    "incremental": true
+  },
+  "include": ["src"]
+}
+```
+
+### For `application` setup
+
+```json
+{
+  "extends": "@preco21/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "incremental": true
+  },
+  "include": ["src"]
 }
 ```

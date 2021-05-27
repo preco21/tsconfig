@@ -1,22 +1,26 @@
 {
   "compilerOptions": {
-    "target": "es2018",
-    "module": "commonjs",
+    "target": "es2019",
+    "module": "es2020",
 
     "moduleResolution": "node",
-    "resolveJsonModule": true,
 
     "jsx": "react",
-    "declaration": true,
     "newLine": "lf",
     "stripInternal": true,
 
     "strict": true,
-    "noImplicitReturns": true,
+
     "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+
     "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
 
     "noEmitOnError": true,
     "noErrorTruncation": true,
