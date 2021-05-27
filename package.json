@@ -1,6 +1,6 @@
 {
   "name": "@preco21/tsconfig",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Shared TypeScript config for my projects",
   "author": "Plusb Preco <plusb21@gmail.com>",
   "main": "tsconfig.json",
