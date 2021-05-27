@@ -32,7 +32,7 @@ $ npm install --save-dev @preco21/tsconfig
 {
   "extends": "@preco21/tsconfig",
   "compilerOptions": {
-    "outDir": "dist",
+    "lib": ["es2019"],
     "esModuleInterop": true,
     "declaration": true,
     "sourceMap": true,
@@ -50,6 +50,23 @@ $ npm install --save-dev @preco21/tsconfig
   "compilerOptions": {
     "outDir": "dist",
     "module": "commonjs",
+    "lib": ["es2019"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "incremental": true
+  },
+  "include": ["src"]
+}
+```
+
+### For `web application` setup
+
+```json
+{
+  "extends": "@preco21/tsconfig",
+  "compilerOptions": {
+    "lib": ["es2019", "dom"],
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "sourceMap": true,
