@@ -1,8 +1,6 @@
-# tsconfig
+# @preco21/tsconfig
 
-> Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for my projects
-
-_Heavily inspired by [`sindresorhus/tsconfig`](https://github.com/sindresorhus/tsconfig)_
+> Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for @preco21
 
 ## Install
 
@@ -75,3 +73,7 @@ $ npm install --save-dev @preco21/tsconfig
   "include": ["src"]
 }
 ```
+
+## Motivation
+
+Heavily inspired by [`sindresorhus/tsconfig`](https://github.com/sindresorhus/tsconfig).
