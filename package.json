@@ -5,7 +5,7 @@
   "author": "Plusb Preco <plusb21@gmail.com>",
   "main": "tsconfig.json",
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "license": "MIT",
   "homepage": "https://github.com/preco21/tsconfig#readme",
