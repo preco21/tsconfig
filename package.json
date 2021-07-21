@@ -10,9 +10,7 @@
   "license": "MIT",
   "homepage": "https://github.com/preco21/tsconfig#readme",
   "repository": "preco21/tsconfig",
-  "bugs": {
-    "url": "https://github.com/preco21/tsconfig/issues"
-  },
+  "bugs": "https://github.com/preco21/tsconfig/issues",
   "files": [
     "tsconfig.json"
   ],
