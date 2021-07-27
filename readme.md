@@ -63,7 +63,7 @@ $ npm install --save-dev @preco21/tsconfig
 {
   "extends": "@preco21/tsconfig",
   "compilerOptions": {
-    "lib": ["dom"],
+    "lib": ["es2019", "dom"],
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "sourceMap": true,
