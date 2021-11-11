@@ -4,6 +4,8 @@
     "module": "es2020",
 
     "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
 
     "jsx": "react",
     "newLine": "lf",
