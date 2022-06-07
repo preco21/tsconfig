@@ -8,6 +8,8 @@
 $ npm install --save-dev @preco21/tsconfig
 ```
 
+*This config requires TypeScript 4.7 or later.*
+
 ## Usage
 
 `tsconfig.json`:
@@ -60,7 +62,6 @@ $ npm install --save-dev @preco21/tsconfig
 {
   "extends": "@preco21/tsconfig",
   "compilerOptions": {
-    "lib": ["es2019", "dom"],
     "sourceMap": true,
     "incremental": true
   },
