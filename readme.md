@@ -20,7 +20,8 @@ $ npm install --save-dev @preco21/tsconfig
   "compilerOptions": {
     "outDir": "dist"
   },
-  "include": ["src"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
 ```
 
@@ -36,7 +37,8 @@ $ npm install --save-dev @preco21/tsconfig
     "declaration": true,
     "incremental": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
 ```
 
@@ -50,7 +52,8 @@ $ npm install --save-dev @preco21/tsconfig
     "module": "commonjs",
     "incremental": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
 ```
 
@@ -59,7 +62,8 @@ $ npm install --save-dev @preco21/tsconfig
 ```json
 {
   "extends": "@preco21/tsconfig",
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
 ```
 
