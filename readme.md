@@ -26,7 +26,7 @@ $ npm install --save-dev @preco21/tsconfig
 
 ## Snippets
 
-### For `library` setup
+### For *library* setup
 
 ```json
 {
@@ -34,14 +34,13 @@ $ npm install --save-dev @preco21/tsconfig
   "compilerOptions": {
     "outDir": "dist",
     "declaration": true,
-    "sourceMap": true,
     "incremental": true
   },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }
 ```
 
-### For `application` setup
+### For *application* setup
 
 ```json
 {
@@ -49,23 +48,18 @@ $ npm install --save-dev @preco21/tsconfig
   "compilerOptions": {
     "outDir": "dist",
     "module": "commonjs",
-    "sourceMap": true,
     "incremental": true
   },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }
 ```
 
-### For `web application` setup
+### For *web application* setup
 
 ```json
 {
   "extends": "@preco21/tsconfig",
-  "compilerOptions": {
-    "sourceMap": true,
-    "incremental": true
-  },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }
 ```
 
