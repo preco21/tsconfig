@@ -7,13 +7,15 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
 
+    "sourceMap": true,
+
     "lib": [
 			"DOM",
 			"DOM.Iterable",
       "ES2020"
 		],
 
-    "jsx": "react",
+    "jsx": "preserve",
     "newLine": "lf",
     "stripInternal": true,
 
