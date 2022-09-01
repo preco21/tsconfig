@@ -12,7 +12,8 @@
   "repository": "preco21/tsconfig",
   "bugs": "https://github.com/preco21/tsconfig/issues",
   "files": [
-    "tsconfig.json"
+    "tsconfig.json",
+    "node.json"
   ],
   "keywords": [
     "tsconfig",
