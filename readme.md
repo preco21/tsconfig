@@ -27,7 +27,7 @@ $ npm install --save-dev @preco21/tsconfig
 
 ## Snippets
 
-### For *library* setup
+### For *common* setup
 
 ```json
 {
@@ -42,28 +42,12 @@ $ npm install --save-dev @preco21/tsconfig
 }
 ```
 
-### For *application* setup
+### For *Node.js* setup
 
 ```json
 {
-  "extends": "@preco21/tsconfig",
-  "compilerOptions": {
-    "outDir": "dist",
-    "module": "commonjs",
-    "incremental": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
-}
-```
-
-### For *web application* setup
-
-```json
-{
-  "extends": "@preco21/tsconfig",
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "extends": "@preco21/tsconfig/node",
+  ...
 }
 ```
 
