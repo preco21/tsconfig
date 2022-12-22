@@ -10,10 +10,10 @@
     "sourceMap": true,
 
     "lib": [
-			"DOM",
-			"DOM.Iterable",
+      "DOM",
+      "DOM.Iterable",
       "ES2020"
-		],
+    ],
 
     "jsx": "preserve",
     "newLine": "lf",
