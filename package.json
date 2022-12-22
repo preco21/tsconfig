@@ -3,18 +3,19 @@
   "version": "5.3.0",
   "description": "Shared TypeScript config for @preco21",
   "author": "Plusb Preco <plusb21@gmail.com>",
-  "main": "tsconfig.json",
+  "main": "./tsconfig.json",
   "engines": {
     "node": ">=14"
   },
-  "license": "MIT",
-  "homepage": "https://github.com/preco21/tsconfig#readme",
-  "repository": "preco21/tsconfig",
-  "bugs": "https://github.com/preco21/tsconfig/issues",
   "files": [
     "tsconfig.json",
     "node.json"
   ],
+  "license": "MIT",
+  "homepage": "https://github.com/preco21/tsconfig#readme",
+  "repository": "preco21/tsconfig",
+  "bugs": "https://github.com/preco21/tsconfig/issues",
+  "sideEffects": false,
   "keywords": [
     "tsconfig",
     "typescript",
