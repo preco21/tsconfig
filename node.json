@@ -2,7 +2,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "module": "Node16",
+
     "moduleResolution": "Node16",
-    "moduleDetection": "force"
+    "moduleDetection": "force",
+    "resolveJsonModule": false // ESM doesn't yet support JSON modules.
   }
 }
