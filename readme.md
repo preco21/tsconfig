@@ -25,29 +25,18 @@ npm install --save-dev @preco21/tsconfig
 }
 ```
 
-## Snippets
-
-### For *common* setup
-
-```json
-{
-  "extends": "@preco21/tsconfig",
-  "compilerOptions": {
-    "outDir": "dist",
-    "declaration": true,
-    "incremental": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
-}
-```
-
-### For *Node.js* setup
+For *Node.js* setup without bundler:
 
 ```json
 {
   "extends": "@preco21/tsconfig/node",
-  ...
+    "compilerOptions": {
+    "outDir": "dist",
+    "declaration": false,
+    "incremental": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
 ```
 
