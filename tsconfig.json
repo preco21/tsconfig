@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2021",
+    "target": "ES2022",
     "module": "ESNext",
 
     "moduleResolution": "Node",
@@ -13,7 +13,7 @@
     "lib": [
       "DOM",
       "DOM.Iterable",
-      "ES2021"
+      "ES2022"
     ],
 
     "jsx": "preserve",
