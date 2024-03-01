@@ -5,7 +5,7 @@
   "author": "Preco Plusb <plusb21@gmail.com>",
   "main": "./tsconfig.json",
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   },
   "files": [
     "tsconfig.json",
