@@ -18,7 +18,8 @@ npm install --save-dev @preco21/tsconfig
 {
   "extends": "@preco21/tsconfig",
   "compilerOptions": {
-    "outDir": "dist"
+    "outDir": "dist",
+    "baseUrl": "."
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
@@ -32,6 +33,7 @@ For *Node.js* setup without bundler:
   "extends": "@preco21/tsconfig/node",
     "compilerOptions": {
     "outDir": "dist",
+    "baseUrl": ".",
     "declaration": false,
     "incremental": true
   },
