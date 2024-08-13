@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "ESNext",
+    "outDir": "${configDir}/dist",
 
+    "module": "ESNext",
     "moduleResolution": "Node",
+    "moduleDetection": "force",
+    "target": "ES2022",
+
     "esModuleInterop": true,
     "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
 
     "declaration": true,
     "sourceMap": true,

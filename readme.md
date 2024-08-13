@@ -8,7 +8,7 @@
 npm install --save-dev @preco21/tsconfig
 ```
 
-*This config requires TypeScript 4.7 or later.*
+*This config requires TypeScript 5.5 or later.*
 
 ## Usage
 
@@ -17,10 +17,6 @@ npm install --save-dev @preco21/tsconfig
 ```json
 {
   "extends": "@preco21/tsconfig",
-  "compilerOptions": {
-    "outDir": "dist",
-    "baseUrl": "."
-  },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
@@ -31,9 +27,7 @@ For *Node.js* setup without bundler:
 ```json
 {
   "extends": "@preco21/tsconfig/node",
-    "compilerOptions": {
-    "outDir": "dist",
-    "baseUrl": ".",
+  "compilerOptions": {
     "declaration": false,
     "incremental": true
   },
