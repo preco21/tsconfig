@@ -4,7 +4,7 @@
     "outDir": "${configDir}/dist",
 
     "module": "ESNext",
-    "moduleResolution": "nodenext",
+    "moduleResolution": "bundler",
     "moduleDetection": "force",
     "target": "ES2022",
 
