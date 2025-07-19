@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-npm install --save-dev @preco21/tsconfig
+pnpm i -D @preco21/tsconfig
 ```
 
 *This config requires TypeScript 5.5 or later.*
