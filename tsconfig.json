@@ -3,10 +3,10 @@
   "compilerOptions": {
     "outDir": "${configDir}/dist",
 
-    "module": "ESNext",
+    "module": "esnext",
     "moduleResolution": "bundler",
     "moduleDetection": "force",
-    "target": "ES2022",
+    "target": "esnext",
 
     "esModuleInterop": true,
     "resolveJsonModule": true,
@@ -31,9 +31,10 @@
     "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
+    "noUncheckedIndexedAccess": true,
     "noUnusedParameters": true,
+    "noUncheckedSideEffectImports": true,
 
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
